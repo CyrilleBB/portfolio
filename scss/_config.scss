@@ -1,8 +1,15 @@
-$primary-color: #444;
-$secondary-color: #1fd7e4;
+$primary-color: rgb(224, 224, 224);
+$secondary-color: #19d0dd;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
+
+$level-one: translateZ(3rem);
+$level-two: translateZ(6rem);
+$level-three: translateZ(9rem);
+
+$fw-normal: 400;
+$fw-bold: 700;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
@@ -23,7 +30,7 @@ $background-opacity: 0.9;
         width: 100%;
         height: 100%;
         z-index: -1;
-        background: rgba($primary-color, 0.9);
+        background: rgba($primary-color, $background-opacity);
       }
     }
   }

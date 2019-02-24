@@ -369,8 +369,11 @@ main#home h1 {
   main .lg-heading {
     line-height: 1;
     margin-bottom: 1rem;
-    font-size: 0.7rem;
+    font-size: 3rem;
+
   }
+
+
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -395,8 +398,10 @@ main#home h1 {
   }
   .menu-branding .portrait {
     background: url("../img/portrait2.JPG");
+    background-size:cover;
     width: 150px;
     height: 150px;
+
   }
   .projects {
     /* -ms-grid-columns: (1fr)[2]; */
@@ -412,20 +417,22 @@ main#home h1 {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  #mail-contact {
+    font-size: 0.8rem;
+  }
+
   .card {
     width: 60vw;
   }
   .card-front,
   .card-back {
-    width: 60vw;
-    
-  }
-  .card-content {
+
     width: 60vw;
   }
 
-  .card-back {
-    font-size: 1rem;
+  .card-content {
+
+    width: 60vw;
   }
 }
 

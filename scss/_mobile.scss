@@ -18,6 +18,7 @@
     .lg-heading {
       line-height: 1;
       margin-bottom: 1rem;
+      font-size: 0.7rem;
     }
   }
 
@@ -43,7 +44,7 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: red;
+      background: url("../img/portrait2.JPG");
       width: 150px;
       height: 150px;
     }
@@ -62,5 +63,19 @@
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 60vw;
+  }
+  .card-front,
+  .card-back {
+
+    width: 60vw;
+  }
+
+  .card-content {
+
+    width: 60vw;
   }
 }

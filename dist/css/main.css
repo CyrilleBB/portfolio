@@ -394,7 +394,6 @@ main#home h1 {
 .card-front {
   background-image: url(https://i.redd.it/20b8grvq1eh21.jpg);
   background-size: cover;
-  background-blend-mode: overlay;
   color: #fff;
 }
 
